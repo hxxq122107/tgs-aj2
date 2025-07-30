@@ -1,192 +1,37 @@
 <!DOCTYPE html>
-<html lang="id">
-
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ONIC ID</title>
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-    }
-
-    body {
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-    }
-
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background-color: #afac0b;
-      color: white;
-      padding: 20px 40px;
-    }
-
-    .logo {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-
-    .logo img {
-      height: 40px;
-    }
-
-    nav ul {
-      list-style: none;
-      display: flex;
-      gap: 20px;
-    }
-
-    nav ul li {
-      cursor: pointer;
-    }
-
-    .hero {
-      background-image: url('download (19).jpg');
-      background-size: cover;
-      background-position: center;
-      text-align: center;
-      padding: 80px 20px;
-      color: white;
-      position: relative;
-    }
-
-    .hero::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.5);
-      z-index: 0;
-    }
-
-    .hero h1,
-    .hero button {
-      position: relative;
-      z-index: 1;
-    }
-
-    .hero h1 {
-      font-size: 48px;
-      margin-bottom: 50px;
-    }
-
-    .hero button {
-      padding: 12px 24px;
-      font-size: 16px;
-      background-color: #3498db;
-      color: white;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-    }
-
-    .features {
-      display: flex;
-      justify-content: space-around;
-      padding: 60px 20px;
-      background-color: #ffffff;
-    }
-
-    .feature-box {
-      background-color: #ecf0f1;
-      padding: 20px;
-      border-radius: 10px;
-      width: 30%;
-      text-align: center;
-    }
-
-    .feature-box h3 {
-      margin-bottom: 10px;
-    }
-
-    .feature-box img {
-      width: 100%;
-      border-radius: 6px;
-      margin-bottom: 10px;
-    }
-
-    footer {
-      background-color: #c00606;
-      color: white;
-      text-align: center;
-      padding: 15px;
-      margin-top: auto;
-    }
-
-    @media (max-width: 768px) {
-      .features {
-        flex-direction: column;
-        gap: 20px;
-      }
-
-      .feature-box {
-        width: 100%;
-      }
-
-      header {
-        flex-direction: column;
-        gap: 10px;
-      }
-
-      nav ul {
-        flex-direction: column;
-        align-items: center;
-      }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Diri</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+        }
+    </style>
 </head>
 <body>
-
-  <header>
-    <div class="logo">
-      <img src="download__11_-removebg-preview.png" alt="Logo">
-      <span>ONIC ID</span>
+    <div class="container">
+        <h1>Biodata Diri</h1>
+        <p><strong>Nama:</strong>David Wahyu</p>
+        <p><strong>Kelas:</strong> 12</p>
+        <p><strong>Sekolah:</strong> SMK Telkom Sidoarjo</p>
+        <p><strong>Jurusan:</strong> Sistem Informasi Jaringan dan Aplikasi (SIJA)</p>
+        <p><strong>Cita-cita:</strong> Menjadi seorang Full-Stack Engineer keren!</p>
     </div>
-    <nav>
-      <ul>
-        <li>Beranda</li>
-        <li>Tentang</li>
-        <li>Piala</li>
-        <li>Kontak</li>
-      </ul>
-    </nav>
-  </header>
-
-  <section class="hero">
-    <h1>Selamat Datang di Website ONIC ID</h1>
-    <button>Review</button>
-  </section>
-
-  <section class="features">
-    <div class="feature-box">
-      <h3>Juara MSC 2019</h3>
-      <img src="download (15).jpg" alt="MSC 2019">
-      <p>Deskripsi pertama.</p>
-    </div>
-    <div class="feature-box">
-      <h3>Juara MPL ID S12</h3>
-      <img src="download (16).jpg" alt="MPL ID S12">
-      <p>Deskripsi kedua.</p>
-    </div>
-    <div class="feature-box">
-      <h3>Juara WORD CHAMPION 6</h3>
-      <img src="download (18).jpg" alt="WORLD CHAMPION 6">
-      <p>Deskripsi ketiga.</p>
-    </div>
-  </section>
-
-  <footer>
-    &copy; 2025 Hak Cipta | HxxQ Dilindungi.
-  </footer>
 </body>
 </html>
